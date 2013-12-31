@@ -96,6 +96,7 @@
 		indicator = [[InfColorIndicatorView alloc] initWithFrame: indicatorRect];
 		[self addSubview: indicator];
 	}
+	[super layoutSubviews];
 	
 	[self setIndicatorColor];
 	

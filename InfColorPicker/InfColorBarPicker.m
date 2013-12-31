@@ -73,6 +73,7 @@ static CGImageRef createContentImage()
 		indicator = [[InfColorIndicatorView alloc] initWithFrame: CGRectMake(0, 0, kIndicatorSize, kIndicatorSize)];
 		[self addSubview: indicator];
 	}
+	[super layoutSubviews];
 	
 	indicator.color = [UIColor colorWithHue: self.value
 	                             saturation: 1.0f
